@@ -134,7 +134,7 @@ while len(negative_pairs) < target:
         negative_pairs.append({
             "top_id": top["item_ID"],
             "bottom_id": bottom["item_ID"],
-            "label": 1
+            "label": 0
         })
 
 print("Negative pairs:", len(negative_pairs))
